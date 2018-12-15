@@ -1,4 +1,4 @@
-@charset "UTF-8";   /* Muthu(intellithoughts) author name */
+@charset "UTF-8";   /* Sai(intellithoughts) author name */
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css?family=Questrial');
@@ -17,7 +17,7 @@
 	border-spacing: 0px;
 	border-collapse: collapse;
 }
-h1, h2,  h4, .header_five, h6 {
+.header_five{
 	font-weight: normal;
 	font-family: 'Questrial', sans-serif;
 }
@@ -28,15 +28,12 @@ h1, h2,  h4, .header_five, h6 {
 #wrapper {
 	width: 100%;
 }
-p, li, .data {
+.data {
 	font-size: 14px;
 	line-height: 19px;
 }
 
-h4 {
-	font-size: 22px;
-	line-height: 26px;
-}
+
 .header_five {
 	font-size: 20px;
 	line-height: 24px;
