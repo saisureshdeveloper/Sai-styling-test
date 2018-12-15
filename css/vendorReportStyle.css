@@ -1,0 +1,241 @@
+@charset "UTF-8";   /* Sai(intellithoughts) author name */
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.attribute {
+	outline: none;
+	text-decoration: none;
+}
+.image {
+	border: 0px;
+}
+.table_vendor {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.header_five{
+	font-weight: normal;
+	font-family: 'Questrial', sans-serif;
+}
+.body_vendor {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #222;
+}
+#wrapper {
+	width: 100%;
+}
+.data {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+
+.header_five {
+	font-size: 20px;
+	line-height: 24px;
+}
+.container {
+	margin: auto;
+	width: 750px;
+	position: relative;
+	padding:30px;
+}
+.welcome {
+	width: 750px;
+	margin:0 auto;
+}
+.welcome_lft {
+
+	margin: 0px;
+    float: left;
+    width: 299px;
+    height: 292px;
+    text-align: center;
+    border-right: 20px solid #77b800;
+    background-color: #898989;
+
+	
+}
+.welcome_lft .header_five {
+	    margin: 22px 31px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: none;
+    border-bottom: 2px dotted #fff;
+    text-align: left;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+
+	
+}
+.welcome_lft , .header_five ,.span_vendor {
+	color:#f9c300;
+}
+.welcome_lft .attribute
+{
+	padding:10px 45px;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin: 0 20px;
+	color:#fff;
+	background-color:#77b800;
+	border:2px solid #fff;
+	text-transform:uppercase;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, .3);
+}
+
+.welcome_lft .attribute:hover
+{
+
+	
+
+	padding:10px 45px;
+	color:#fff;
+	background-color:#666;
+	border:2px solid #fff;
+	text-transform:uppercase;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.welcome_rht {
+	float: left;
+    margin: 0px;
+    padding: 0;
+    width: 426px;
+
+	
+}
+.welcome_rht .image{
+	border:1px solid #77b800;
+}
+
+.content {
+	    width: 700px;
+    margin: 19px 0px;
+    float: left;
+
+
+}
+.content .header_three
+{
+	width:100%;
+	padding:10px 0px;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	background-color:#77b800;
+	text-transform:uppercase;
+	text-align:center;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	letter-spacing:0.5px;
+}
+.table_vendor{
+    table-layout:fixed;
+    width: 100%;
+}
+.table_vendor .table_head .table_row .head{
+
+
+    border-bottom: 1px solid #757070;
+    vertical-align: top;
+ 	padding:10px 0px;
+    
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666;
+	background-color:#eee;
+}
+.table_vendor .table_head .table_row .head:first-child{
+	text-align: left;
+	padding-left:5px;
+	width: 224px;
+}
+.table_vendor .table_head .table_row .head:nth-child(2){
+	width: 190px;
+}
+.table_vendor .table_head .table_row .head:last-child{
+	text-align: right;
+	padding-right: 5px;
+}
+.label_vendor
+{
+	padding-left:5px;
+}
+.table_vendor .data {
+    font-size: 13px;
+    color: #636363;
+    text-align: center;
+	padding: 15px 0px;
+}
+.table_vendor .data:first-child {
+   text-align: left
+}
+.table_vendor .data:last-child {
+   text-align: right;
+   padding-right: 5px;
+}
+.table_vendor .data#report_width
+{
+	color:#8cc238;
+	font-weight: bold;
+}
+
+
+.table_vendor .data:first-child{
+	text-align: left;
+}
+.table_vendor .table_body .table_row:nth-of-type(even){
+	background-color: #fff;
+  
+    border-bottom: 1px solid #757070;
+}
+.table_vendor .table_body .table_row:nth-of-type(odd){
+	background-color: #d6eab2;
+   
+      border-bottom: 1px solid #757070;
+}
+.table_vendor .table_row .data:nth-child(1){
+	padding-left:5px;
+}
+.strightDiv{
+	    margin: -14px 0px 4px 18px;
+}
+.strighbodytDiv
+{
+	margin: -22px 0px 0px 19px;
+}
+.action
+{
+	    margin: 0 auto;
+    padding: 20px 2px;
+    text-align: center;
+
+
+}
+.action .attribute
+{
+	padding:1px;
+	text-align:center;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.action .attribute:hover
+{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
